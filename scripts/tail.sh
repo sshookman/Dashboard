@@ -1,1 +1,1 @@
-docker logs dashboard
+docker logs -f dashboard

@@ -1,7 +1,7 @@
 {
-    "title": "Codepoet Dashboard",
+    "title": "Code Dashboard",
     "titleVisible": false,
-    "description": "Codepoet Project Dashboard",
+    "description": "A simple dashboard for tracking build status, code coverage, and overall health of various projects",
 
     "layout": {
         "gridSize" : { "columns" : 9, "rows" : 10 },

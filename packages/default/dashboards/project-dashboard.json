@@ -1,0 +1,116 @@
+{
+    "title": "Codepoet Dashboard",
+    "titleVisible": false,
+    "description": "Codepoet Project Dashboard",
+
+    "layout": {
+        "gridSize" : { "columns" : 9, "rows" : 10 },
+        "customJS" : [],
+        "widgets" : [
+            {
+                "r" : 1, "c" : 1,
+                "w" : 3, "h" : 1, 
+                "widget" : "info", 
+                "job" : "info",
+                "config": "projectRead"
+            },
+            {
+                "r" : 2,"c" : 1,
+                "w" : 3, "h" : 3, 
+                "widget" : "builds", 
+                "job" : "builds",
+                "config": "projectRead"
+            },
+            {
+                "r" : 5,"c" : 1,
+                "w" : 3, "h" : 3, 
+                "widget" : "coverage", 
+                "job" : "coverage",
+                "config": "projectRead"
+            },
+            {
+                "r" : 8,"c" : 1,
+                "w" : 3, "h" : 3, 
+                "widget" : "quality", 
+                "job" : "quality",
+                "config": "projectRead"
+            },
+            {
+                "r" : 1,"c" : 4,
+                "w" : 3, "h" : 1, 
+                "widget" : "info", 
+                "job" : "info",
+                "config": "vaultMonkey"
+            },
+            {
+                "r" : 2,"c" : 4,
+                "w" : 3, "h" : 3, 
+                "widget" : "builds", 
+                "job" : "builds",
+                "config": "vaultMonkey"
+            },
+            {
+                "r" : 5,"c" : 4,
+                "w" : 3, "h" : 3, 
+                "widget" : "coverage", 
+                "job" : "coverage",
+                "config": "vaultMonkey"
+            },
+            {
+                "r" : 8,"c" : 4,
+                "w" : 3, "h" : 3, 
+                "widget" : "quality", 
+                "job" : "quality",
+                "config": "vaultMonkey"
+            },
+            {
+                "r" : 1,"c" : 7,
+                "w" : 3, "h" : 1, 
+                "widget" : "info", 
+                "job" : "info",
+                "config": "venalArtificer"
+            },
+            {
+                "r" : 2,"c" : 7,
+                "w" : 3, "h" : 3, 
+                "widget" : "builds", 
+                "job" : "builds",
+                "config": "venalArtificer"
+            },
+            {
+                "r" : 5,"c" : 7,
+                "w" : 3, "h" : 3, 
+                "widget" : "coverage", 
+                "job" : "coverage",
+                "config": "venalArtificer"
+            },
+            {
+                "r" : 8,"c" : 7,
+                "w" : 3, "h" : 3, 
+                "widget" : "quality", 
+                "job" : "quality",
+                "config": "venalArtificer"
+            }
+        ]
+    },
+
+    "config": {
+        "projectRead": {
+            "interval": 600000,
+            "name": "ProjectRead",
+            "displayName": "Project Read"
+        },
+        "venalArtificer": {
+            "interval": 600000,
+            "name": "VenalArtificer",
+            "displayName": "Venal Artificer"
+
+        },
+        "vaultMonkey": {
+            "interval": 600000,
+            "name": "VaultMonkey",
+            "displayName": "Vault Monkey"
+
+        }
+    }
+}

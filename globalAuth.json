@@ -1,0 +1,11 @@
+{
+    "travis":{
+        "token": "-SX8KYBwcWkelRVtW4KL4A"
+    },
+    "codecov":{
+        "token": "47e68aad165f45a2b2618f54fea7a66c"
+    },
+    "codacy":{
+        "token": "N0m6QuRgWrzaM6v32wai"
+    }
+}

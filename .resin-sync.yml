@@ -1,0 +1,6 @@
+local_resinos:
+  app-name: dashboard
+  build-triggers:
+    - Dockerfile: b330155ed69356f47b41b2cfa3dce6b5b96831b8e9557a511b929455047f2d8e
+    - package.json: 2d774791fb373e58fcdc10af1a2de29c2561a41ff8e33ad7907e43191d24c986
+  environment: []

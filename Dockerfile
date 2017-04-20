@@ -1,4 +1,4 @@
-FROM resin/raspberrypi3-alpine-node:slim
+FROM node:7.9
 MAINTAINER Sean Shookman <SMS1127@gmail.com>
 
 EXPOSE 3000

@@ -1,1 +1,1 @@
-docker build -f Dockerfile.local -t seanshookman/dashboard .
+docker build -f Dockerfile -t seanshookman/dashboard .
